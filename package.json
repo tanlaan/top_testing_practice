@@ -1,0 +1,23 @@
+{
+  "name": "top_testing_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanlaan/top_testing_practice.git"
+  },
+  "author": "Chris Bolas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanlaan/top_testing_practice/issues"
+  },
+  "homepage": "https://github.com/tanlaan/top_testing_practice#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
