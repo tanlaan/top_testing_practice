@@ -1,4 +1,4 @@
-const capitalize = require('../capitalize/capitalize')
+import capitalize from '../capitalize/capitalize'
 
 test('Single character gets capitalized', () => {
     expect(capitalize('a')).toBe('A')

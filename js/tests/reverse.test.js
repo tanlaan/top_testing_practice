@@ -1,4 +1,4 @@
-const reverseString = require('../reverse/reverse')
+import reverseString from '../reverse/reverse'
 
 test('A single character reversed is itself.', () => {
     expect(reverseString('a')).toBe('a')

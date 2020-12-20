@@ -1,4 +1,4 @@
-function reverseString(word) {
+const reverseString = (word) => {
     let newWord = ''
     for(let i = word.length; i >= 0; i--) {
         newWord += word.charAt(i)
@@ -6,4 +6,4 @@ function reverseString(word) {
     return(newWord)
 }
 
-module.exports = reverseString
+export default reverseString
