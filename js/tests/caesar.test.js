@@ -19,3 +19,15 @@ test ('abc, 1 = bcd', () => {
 test ('offsets bigger than 25 work', () => {
     expect(caesar('a', 52)).toBe('a')
 })
+
+test ('Ignores punctuation', () => {
+    expect(caesar('a!', 1)).toBe('b!')
+})
+
+test ('Capital letters work', () => {
+    expect(caesar('A', 1)).toBe('B')
+})
+
+test ('Mixed case works as well', () => {
+    expect(caesar('aA', 1)).toBe('bB')
+})
