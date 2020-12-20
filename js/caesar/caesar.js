@@ -9,7 +9,7 @@ const caesar = (words, offset) => {
             if (!isAlphaLower(offsetChar(character, offset))) {
                 // We went out of bounds, roll over
                 if (isPositive(offset)) {
-                    converted += String.fromCharCode((((character.charCodeAt(0) - 'z'.charCodeAt(0) - 1) + offset) % 26) + 'a'.charCodeAt(0) - 1)
+                    converted += String.fromCharCode((((character.charCodeAt(0) - 'z'.charCodeAt(0)) + offset) % 26) + 'a'.charCodeAt(0) - 1)
                 } else {
                     converted += String.fromCharCode(((('a'.charCodeAt(0) - character.charCodeAt(0)) + offset) % 26) + 'z'.charCodeAt(0) + 1)
                 }
